@@ -40,20 +40,25 @@ ul li{
     top: auto;
     height:400px;   
 }
+.middle-bottom p::-webkit-scrollbar {
+    display: none;
+}
 button{
-    display: block;
     margin: auto;
     border: 1px solid black;
     padding: 15px 50px;
     border-radius: 10px;
     background-color: grey;
+    float: left;
+    width: 15%;
+    margin: 45px;
 }
 button:hover{
     background-color: #4CAF50; /* Green */
     transition: 350ms;
 }
-footer{
-    margin: 900px;
+section footer{
+    margin-top: 1000px;
     display: block;
     background-color: grey;
     width: 100%;
